@@ -1,0 +1,11 @@
+version: '2'
+services:
+
+    envtest:
+        build: .
+
+        environment:
+          - VAR1=content-of-var1
+          - VAR2=content-of-var2
+
+        env_file: .environment

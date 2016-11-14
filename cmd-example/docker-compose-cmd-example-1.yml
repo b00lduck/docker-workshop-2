@@ -1,0 +1,12 @@
+version: '2'
+services:
+
+    envtest:
+        build: .
+
+#        command:
+#          - hello
+#          - docker-compose!
+
+#        entrypoint:
+#          - /toilet
